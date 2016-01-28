@@ -1,47 +1,27 @@
-/*
-
-Your styles go here!
-
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
-*/
-
-
 body {
-
     font-family: 'Lato', sans-serif;
 }
-
 
 h3 {
     color: #747404;
     margin:5px;
-
 }
 
 h4 {
     color: #747404;
     margin: 10px 5px 5px 5px;
-    
 }
 
-.dropdown-menu{
+.dropdown-menu {
     left: 25%;
     right: 25%;
     text-align: center;
 }
 
-.logo{
+.logo {
     max-height: 70px;
     margin-left: 0px;
 }
-    
 
 hr { 
     display: block;
@@ -52,70 +32,58 @@ hr {
     width: auto;
 }
 
-button{
+button {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
 }
 
-
-.title{
+.title {
     width:100%;
     display: -webkit-flex; /* Safari */
     display: flex;
     border-color:#BCBBBB;
-    
 }
-
-
 
 .featured {
     color: #BCBBBB;
     margin-top: 60px;
     margin-bottom: 10px;
     text-align: center;
-    
 }
 
-
-.bottom{
-
+.bottom {
     margin-bottom: 70px;
 }
-#btop{
+
+#btop {
     margin-top:0;
 }
 
-figcaption{
-    
+figcaption {
     font-weight: bold;
-    text-align:center;
+    text-align: center;
     margin-bottom: 15px;
 }
 
-figure{
+figure {
     display: inline-block;
 }
 
-
-img{    
-    
-    margin-right:auto;
-    margin-left:auto;
-       
+img {    
+    margin-right: auto;
+    margin-left: auto;
 }
-
 
 picture {
     display: block;
 }
-    
-.bord{
+
+.bord {
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    
 }
 
 
