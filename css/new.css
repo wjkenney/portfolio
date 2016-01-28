@@ -15,13 +15,14 @@ I've left some boilerplate below for you.
 
 body {
 
-    
+    font-family: 'Lato', sans-serif;
 }
 
 
 h3 {
     color: #747404;
     margin:5px;
+
 }
 
 h4 {
@@ -30,25 +31,32 @@ h4 {
     
 }
 
-.mainpic{
-    margin: 10px 0px 0px 0px;
-    max-width: 100%;
+.dropdown-menu{
+    left: 25%;
+    right: 25%;
+    text-align: center;
 }
+
 .logo{
     max-height: 70px;
+    margin-left: 0px;
+}
     
+
+hr { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-color: #BCBBBB;
+    border-width: 2px;
+    width: auto;
 }
 
-.tleft{
-    width:50%;
-    text-align:left;
-
-}
-
-.tright{
-    
-    width:50%;
-    text-align:right;
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 
@@ -56,11 +64,11 @@ h4 {
     width:100%;
     display: -webkit-flex; /* Safari */
     display: flex;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
     border-color:#BCBBBB;
     
 }
+
+
 
 .featured {
     color: #BCBBBB;
@@ -70,14 +78,11 @@ h4 {
     
 }
 
-.rows{
-    padding-right: 0px;
-    padding-left: 0px;
-    max-width: 100%;
-    display: block;
+
+.bottom{
+
+    margin-bottom: 70px;
 }
-
-
 #btop{
     margin-top:0;
 }
@@ -86,37 +91,25 @@ figcaption{
     
     font-weight: bold;
     text-align:center;
+    margin-bottom: 15px;
 }
 
-@media (min-width: 600px) { /* Three columns for large devices */
-    figure {
-        margin-left: 0px;
-        margin-right:5px;
-        max-width: 32%;
-        display: inline-block;
-    }
-}
-
-
-img{
-    
-    max-width:100%;
-    margin-right:auto;
-    margin-left:auto;
-    
-    
-}
-
-figure {
+figure{
     display: inline-block;
-    width: 100%;
-    margin-right:auto;
-    margin-left:auto;
-    margin-top:20px;
-    
 }
 
 
+img{    
+    
+    margin-right:auto;
+    margin-left:auto;
+       
+}
+
+
+picture {
+    display: block;
+}
     
 .bord{
     border-style: solid;

@@ -9,6 +9,7 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
+    
     responsive_images: {
       dev: {
         options: {
@@ -16,7 +17,6 @@ module.exports = function(grunt) {
           sizes: [{
             
             name: 'small',
-            crop: true,
             width: 240,
             height: 150,
             quality: 40
@@ -24,22 +24,19 @@ module.exports = function(grunt) {
           },
           {
              name: 'medium',
-             crop: true,
              width: 460,
-             height: 288,
+             height: 280,
              quality: 60
                         
               },
             {  
               name: 'large',
-              crop: true,
               width: 1140,
               height: 570,
               quality: 80
               },
          {
               name: 'large',
-              crop: true,
               width: 1140,
               quality: 90,
               suffix: '_x2',
