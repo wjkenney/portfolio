@@ -4,7 +4,7 @@ body {
 
 h3 {
     color: #747404;
-    margin:5px;
+    margin: 5px;
 }
 
 h4 {
@@ -23,7 +23,7 @@ h4 {
     margin-left: 0px;
 }
 
-hr { 
+hr {
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -40,10 +40,11 @@ button {
 }
 
 .title {
-    width:100%;
-    display: -webkit-flex; /* Safari */
+    width: 100%;
+    display: -webkit-flex;
+ /* Safari */
     display: flex;
-    border-color:#BCBBBB;
+    border-color: #BCBBBB;
 }
 
 .featured {
@@ -58,7 +59,7 @@ button {
 }
 
 #btop {
-    margin-top:0;
+    margin-top: 0;
 }
 
 figcaption {
@@ -71,7 +72,7 @@ figure {
     display: inline-block;
 }
 
-img {    
+img {
     margin-right: auto;
     margin-left: auto;
 }
@@ -85,6 +86,8 @@ picture {
     border-width: 3px;
     border-color: black;
 }
+
+
 
 
 
